@@ -1,0 +1,16 @@
+DEBUG:root:this indicates debugging info
+INFO:root:this indicates Important info
+ERROR:root:this indicates Error info
+WARNING:root:this indicates Warning info
+CRITICAL:root:this indicates Critical info
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\Durve\AppData\Local\Temp\ipykernel_11828\2147142706.py", line 7, in <module>
+    print(round((val1/val2),3))
+                 ~~~~^~~~~
+ZeroDivisionError: division by zero
+ERROR:root:invalid literal for int() with base 10: ';'
+Traceback (most recent call last):
+  File "C:\Users\Durve\AppData\Local\Temp\ipykernel_11828\2147142706.py", line 5, in <module>
+    val2 = int(input("Enter second value"))
+ValueError: invalid literal for int() with base 10: ';'
